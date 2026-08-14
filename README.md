@@ -64,7 +64,7 @@ Example API payload (POST /predict):
   "annual_income": 85000,
   "loan_amount": 25000,
   "dti_ratio": 0.28,
-  "emp_length": 6
+  "employment_tenure": 6
 }
 ```
 
