@@ -1,0 +1,77 @@
+2026-08-14 20:55:26,265 - src.model_training - INFO - Starting model training process.
+2026-08-14 20:55:26,265 - src.model_training - INFO - Starting data loading and preprocessing pipeline.
+2026-08-14 20:55:26,265 - src.data_ingestion - INFO - Starting data extraction from C:\Users\91961\Documents\Yash_Work\TempBitsWork\SEML-Assigment\data\loan_data.csv
+2026-08-14 20:55:26,296 - src.data_ingestion - INFO - Successfully loaded 1000 records from C:\Users\91961\Documents\Yash_Work\TempBitsWork\SEML-Assigment\data\loan_data.csv
+2026-08-14 20:55:26,296 - src.data_ingestion - ERROR - Schema validation failed. Missing columns: {'employment_tenure'}
+2026-08-14 20:55:26,296 - src.data_ingestion - ERROR - Failed to read CSV data: Schema validation failed. Missing columns: {'employment_tenure'}
+2026-08-14 20:55:26,296 - src.model_training - ERROR - Data loading failed: Schema validation failed. Missing columns: {'employment_tenure'}
+2026-08-14 20:55:26,296 - src.model_training - ERROR - Model training failed: Schema validation failed. Missing columns: {'employment_tenure'}
+2026-08-14 20:57:43,602 - src.model_training - INFO - Starting model training process.
+2026-08-14 20:57:43,602 - src.model_training - INFO - Starting data loading and preprocessing pipeline.
+2026-08-14 20:57:43,602 - src.data_ingestion - INFO - Starting data extraction from C:\Users\91961\Documents\Yash_Work\TempBitsWork\SEML-Assigment\data\loan_data.csv
+2026-08-14 20:57:43,652 - src.data_ingestion - INFO - Successfully loaded 1000 records from C:\Users\91961\Documents\Yash_Work\TempBitsWork\SEML-Assigment\data\loan_data.csv
+2026-08-14 20:57:43,652 - src.data_ingestion - ERROR - Schema validation failed. Missing columns: {'employment_tenure'}
+2026-08-14 20:57:43,652 - src.data_ingestion - ERROR - Failed to read CSV data: Schema validation failed. Missing columns: {'employment_tenure'}
+2026-08-14 20:57:43,652 - src.model_training - ERROR - Data loading failed: Schema validation failed. Missing columns: {'employment_tenure'}
+2026-08-14 20:57:43,652 - src.model_training - ERROR - Model training failed: Schema validation failed. Missing columns: {'employment_tenure'}
+2026-08-14 20:59:03,693 - src.model_training - INFO - Starting model training process.
+2026-08-14 20:59:03,693 - src.model_training - INFO - Starting data loading and preprocessing pipeline.
+2026-08-14 20:59:03,693 - src.data_ingestion - INFO - Starting data extraction from C:\Users\91961\Documents\Yash_Work\TempBitsWork\SEML-Assigment\data\loan_data.csv
+2026-08-14 20:59:03,718 - src.data_ingestion - INFO - Successfully loaded 1000 records from C:\Users\91961\Documents\Yash_Work\TempBitsWork\SEML-Assigment\data\loan_data.csv
+2026-08-14 20:59:03,718 - src.data_ingestion - ERROR - Schema validation failed. Missing columns: {'employment_tenure'}
+2026-08-14 20:59:03,718 - src.data_ingestion - ERROR - Failed to read CSV data: Schema validation failed. Missing columns: {'employment_tenure'}
+2026-08-14 20:59:03,718 - src.model_training - ERROR - Data loading failed: Schema validation failed. Missing columns: {'employment_tenure'}
+2026-08-14 20:59:03,718 - src.model_training - ERROR - Model training failed: Schema validation failed. Missing columns: {'employment_tenure'}
+2026-08-14 20:59:32,615 - src.model_training - INFO - Starting model training process.
+2026-08-14 20:59:32,615 - src.model_training - INFO - Starting data loading and preprocessing pipeline.
+2026-08-14 20:59:32,616 - src.data_ingestion - INFO - Starting data extraction from C:\Users\91961\Documents\Yash_Work\TempBitsWork\SEML-Assigment\data\loan_data.csv
+2026-08-14 20:59:32,632 - src.data_ingestion - INFO - Successfully loaded 1000 records from C:\Users\91961\Documents\Yash_Work\TempBitsWork\SEML-Assigment\data\loan_data.csv
+2026-08-14 20:59:32,632 - src.data_ingestion - ERROR - Schema validation failed. Missing columns: {'employment_tenure'}
+2026-08-14 20:59:32,632 - src.data_ingestion - ERROR - Failed to read CSV data: Schema validation failed. Missing columns: {'employment_tenure'}
+2026-08-14 20:59:32,632 - src.model_training - ERROR - Data loading failed: Schema validation failed. Missing columns: {'employment_tenure'}
+2026-08-14 20:59:32,632 - src.model_training - ERROR - Model training failed: Schema validation failed. Missing columns: {'employment_tenure'}
+2026-08-14 21:00:27,960 - src.model_training - INFO - Starting model training process.
+2026-08-14 21:00:27,960 - src.model_training - INFO - Starting data loading and preprocessing pipeline.
+2026-08-14 21:00:27,960 - src.data_ingestion - INFO - Starting data extraction from C:\Users\91961\Documents\Yash_Work\TempBitsWork\SEML-Assigment\data\loan_data.csv
+2026-08-14 21:00:27,993 - src.data_ingestion - INFO - Successfully loaded 1000 records from C:\Users\91961\Documents\Yash_Work\TempBitsWork\SEML-Assigment\data\loan_data.csv
+2026-08-14 21:00:27,993 - src.data_ingestion - ERROR - Schema validation failed. Missing columns: {'employment_tenure'}
+2026-08-14 21:00:27,993 - src.data_ingestion - ERROR - Failed to read CSV data: Schema validation failed. Missing columns: {'employment_tenure'}
+2026-08-14 21:00:27,993 - src.model_training - ERROR - Data loading failed: Schema validation failed. Missing columns: {'employment_tenure'}
+2026-08-14 21:00:27,993 - src.model_training - ERROR - Model training failed: Schema validation failed. Missing columns: {'employment_tenure'}
+2026-08-14 21:04:20,500 - src.model_training - INFO - Starting model training process.
+2026-08-14 21:04:20,500 - src.model_training - INFO - Starting data loading and preprocessing pipeline.
+2026-08-14 21:04:20,504 - src.data_ingestion - INFO - Starting data extraction from C:\Users\91961\Documents\Yash_Work\TempBitsWork\SEML-Assigment\data\loan_data.csv
+2026-08-14 21:04:20,534 - src.data_ingestion - INFO - Successfully loaded 1000 records from C:\Users\91961\Documents\Yash_Work\TempBitsWork\SEML-Assigment\data\loan_data.csv
+2026-08-14 21:04:20,534 - src.data_ingestion - INFO - Schema validation passed.
+2026-08-14 21:04:20,534 - src.feature_engineering - INFO - Starting data cleaning process.
+2026-08-14 21:04:20,549 - src.feature_engineering - INFO - Data cleaning completed successfully.
+2026-08-14 21:04:20,558 - src.feature_engineering - INFO - Starting feature transformation (fit=True).
+2026-08-14 21:04:20,600 - src.feature_engineering - INFO - Successfully fitted and transformed features.
+2026-08-14 21:04:21,255 - src.model_training - INFO - Data loading and splitting completed successfully.
+2026-08-14 21:04:21,274 - src.model_training - INFO - Model fitting completed.
+2026-08-14 21:04:21,284 - src.model_training - INFO - Model evaluation metrics: {'accuracy': 0.825, 'precision': 0.515625, 'recall': 0.8918918918918919, 'f1_score': 0.6534653465346535, 'calibration_brier': 0.11018035375948104}
+2026-08-14 21:04:21,291 - src.model_training - INFO - Model artifact saved to C:\Users\91961\Documents\Yash_Work\TempBitsWork\SEML-Assigment\models\loanguard_model.joblib
+2026-08-14 21:04:21,583 - src.inference - INFO - Initializing LoanInference with model path: C:\Users\91961\Documents\Yash_Work\TempBitsWork\SEML-Assigment\models\loanguard_model.joblib
+2026-08-14 21:04:21,913 - src.inference - INFO - Successfully loaded model artifact.
+2026-08-14 21:04:32,208 - src.inference - INFO - Received prediction request.
+2026-08-14 21:04:32,367 - src.inference - INFO - Prediction successful: {'default_prediction': 0, 'default_probability': 0.1189, 'risk_status': 'Low Risk (Auto-Approve)'}
+2026-08-14 21:04:58,639 - src.inference - INFO - Received prediction request.
+2026-08-14 21:04:58,655 - src.inference - INFO - Prediction successful: {'default_prediction': 1, 'default_probability': 0.6697, 'risk_status': 'High Risk (Review/Reject Adverse Status)'}
+2026-08-14 21:05:05,639 - src.inference - INFO - Received prediction request.
+2026-08-14 21:05:05,646 - src.inference - INFO - Prediction successful: {'default_prediction': 1, 'default_probability': 0.9897, 'risk_status': 'High Risk (Review/Reject Adverse Status)'}
+2026-08-14 21:05:15,516 - src.inference - INFO - Received prediction request.
+2026-08-14 21:05:15,533 - src.inference - INFO - Prediction successful: {'default_prediction': 1, 'default_probability': 0.8645, 'risk_status': 'High Risk (Review/Reject Adverse Status)'}
+2026-08-14 21:05:21,432 - src.inference - INFO - Received prediction request.
+2026-08-14 21:05:21,450 - src.inference - INFO - Prediction successful: {'default_prediction': 0, 'default_probability': 0.0119, 'risk_status': 'Low Risk (Auto-Approve)'}
+2026-08-14 21:05:33,109 - src.inference - INFO - Received prediction request.
+2026-08-14 21:05:33,120 - src.inference - INFO - Prediction successful: {'default_prediction': 0, 'default_probability': 0.2477, 'risk_status': 'Low Risk (Auto-Approve)'}
+2026-08-14 21:05:36,749 - src.inference - INFO - Received prediction request.
+2026-08-14 21:05:36,756 - src.inference - INFO - Prediction successful: {'default_prediction': 1, 'default_probability': 0.5815, 'risk_status': 'High Risk (Review/Reject Adverse Status)'}
+2026-08-14 21:05:41,075 - src.inference - INFO - Received prediction request.
+2026-08-14 21:05:41,092 - src.inference - INFO - Prediction successful: {'default_prediction': 0, 'default_probability': 0.4666, 'risk_status': 'Low Risk (Auto-Approve)'}
+2026-08-14 21:17:45,978 - src.inference - INFO - Initializing LoanInference with model path: C:\Users\91961\Documents\Yash_Work\TempBitsWork\SEML-Assigment\models\loanguard_model.joblib
+2026-08-14 21:17:46,354 - src.inference - INFO - Successfully loaded model artifact.
+2026-08-14 21:17:48,934 - src.inference - INFO - Received prediction request.
+2026-08-14 21:17:49,127 - src.inference - INFO - Prediction successful: {'default_prediction': 0, 'default_probability': 0.1189, 'risk_status': 'Low Risk (Auto-Approve)'}
+2026-08-14 21:17:53,566 - src.inference - INFO - Received prediction request.
+2026-08-14 21:17:53,573 - src.inference - INFO - Prediction successful: {'default_prediction': 0, 'default_probability': 0.3029, 'risk_status': 'Low Risk (Auto-Approve)'}

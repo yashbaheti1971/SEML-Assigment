@@ -1,6 +1,6 @@
 from pathlib import Path
 from src.pipeline import LoanDataPipeline
-from src.train import train_model
+from src.model_training import ModelTrainer
 
 ROOT = Path(__file__).parent
 DATA = ROOT / "data" / "loan_data.csv"
@@ -12,7 +12,8 @@ def main():
     print(f"[SUCCESS] Saved 1000 operational records directly into: {DATA}")
 
     print("Executing complete offline ML Ingestion, Cleansing and Scaling Pipeline...")
-    metrics = train_model(DATA, MODEL)
+    trainer = ModelTrainer(DATA, MODEL)
+    metrics = trainer.train_model()
     print(f"[SUCCESS] Persisted comprehensive production model dictionary to: {MODEL}")
 
     print("\n--- Realized Validation Model Metrics Against Targets ---")

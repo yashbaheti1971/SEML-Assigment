@@ -4,7 +4,7 @@ import subprocess
 from pathlib import Path
 
 import streamlit as st
-from src.predict import DefaultPredictor
+from src.inference import LoanInference
 
 MODEL_FILENAME = "loanguard_model.joblib"
 
@@ -60,13 +60,13 @@ def find_model_path() -> Path | None:
 
 @st.cache_resource
 def load_predictor(model_path: str | Path):
-    """Load and return a DefaultPredictor for the given model path.
+    """Load and return a LoanInference for the given model path.
 
     This function is cached by Streamlit so subsequent calls with the same
     model_path are inexpensive.
     """
     model_path = Path(model_path)
-    return DefaultPredictor(model_path)
+    return LoanInference(model_path)
 
 
 def try_generate_model(setup_path: Path) -> tuple[bool, str]:
@@ -147,7 +147,7 @@ def main():
         annual_income = st.number_input(
             "Verified Gross Annual Income ($)", min_value=0, max_value=5_000_000, value=60_000, step=1000
         )
-        emp_length = st.slider("Employment Length (Years)", 0, 40, 5)
+        employment_tenure = st.slider("Employment Length (Years)", 0, 40, 5)
 
     with col2:
         loan_amount = st.number_input(
@@ -162,7 +162,7 @@ def main():
                 annual_income=int(annual_income),
                 loan_amount=int(loan_amount),
                 dti_ratio=float(dti_ratio),
-                emp_length=int(emp_length),
+                employment_tenure=int(employment_tenure),
             )
         except Exception as exc:
             st.error(f"Prediction failed: {exc}")
